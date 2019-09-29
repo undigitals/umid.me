@@ -83,7 +83,7 @@ export default class BlogPage extends Component {
               )
             })}
           </div>
-          <div className="search-container">
+          {/* <div className="search-container">
             <input
               className="search"
               type="text"
@@ -93,7 +93,7 @@ export default class BlogPage extends Component {
               onChange={this.handleChange}
             />
             <div className="filter-count">{filterCount}</div>
-          </div>
+          </div> */}
           <PostListing postEdges={filteredPosts} />
         </div>
       </Layout>

@@ -10,8 +10,8 @@ export default class PostTags extends Component {
       <div className="tag-container">
         {tags &&
           tags.map(tag => (
-            <Link key={tag} style={{ textDecoration: 'none' }} to={`/tags/${kebabCase(tag)}/`}>
-              <span className={size}>{tag}</span>
+            <Link key={tag} style={{  display: 'inline'}} to={`/tags/${kebabCase(tag)}/`}>
+              <span className={size}>#{tag}</span>
             </Link>
           ))}
       </div>

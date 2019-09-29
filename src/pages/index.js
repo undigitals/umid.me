@@ -32,7 +32,7 @@ export default class Index extends Component {
               <p>
                 I write about modern JavaScript, Node.js, design and all things web development.
               </p>
-              <div className="social-buttons">
+              {/* <div className="social-buttons">
                 <div>
                   <a
                     className="twitter-follow-button"
@@ -53,9 +53,9 @@ export default class Index extends Component {
                     Follow
                   </GitHubButton>
                 </div>
-              </div>
+              </div> */}
             </div>
-            <div className="newsletter-section">
+            {/* <div className="newsletter-section">
               <img src={tania} className="newsletter-avatar" alt="Tania" />
               <div>
                 <h3>Get updates</h3>
@@ -64,7 +64,7 @@ export default class Index extends Component {
                   Subscribe
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -89,7 +89,7 @@ export default class Index extends Component {
             <PostListing simple postEdges={popularPostEdges} />
           </section>
 
-          <section className="section">
+          {/* <section className="section">
             <h2>Open Source Projects</h2>
             <ProjectListing projects={projects} />
           </section>
@@ -102,9 +102,9 @@ export default class Index extends Component {
           <section className="section">
             <h2>Speaking</h2>
             <SimpleListing simple data={speaking} />
-          </section>
+          </section> */}
 
-          <section className="section">
+          {/* <section className="section">
             <h2>{`Other People's Opinions`}</h2>
             <div className="quotations">
               {quotes.map(quote => (
@@ -114,7 +114,7 @@ export default class Index extends Component {
                 </blockquote>
               ))}
             </div>
-          </section>
+          </section> */}
         </div>
       </Layout>
     )

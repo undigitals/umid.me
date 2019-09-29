@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import moment from 'moment'
 import { formatDate } from '../utils/global'
+import PostTags from '../components/PostTags'
 
 export default class PostListing extends Component {
   getPostList() {
@@ -34,9 +35,15 @@ export default class PostListing extends Component {
             thumbnail = post.thumbnail.childImageSharp.fixed
           }
 
+          // const tag = post.tags.map((tagItem, key) =>
+          // <p key={tagItem.id}>{tagItem}</p>
+          // );
+
+          // console.log("tags array", tag)
           const popular = post.categories.includes('Popular')
           const date = formatDate(post.date)
           const newest = moment(post.date) > moment().subtract(1, 'months')
+
 
           return (
             <Link to={post.path} key={post.title}>
@@ -45,6 +52,12 @@ export default class PostListing extends Component {
                 <div className="each-list-item">
                   <h2>{post.title}</h2>
                   {!simple && <div className="excerpt">{date}</div>}
+                  
+                  {/* <div className="tag-container">{post.tags}</div> */}
+                  <div className="flex">
+
+                  <PostTags tags={post.tags} />
+                  </div>
                 </div>
                 {newest && (
                   <div className="alert">
