@@ -1,25 +1,25 @@
-import React, { Component } from 'react'
-import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
-import GitHubButton from 'react-github-btn'
-import Layout from '../layout'
-import PostListing from '../components/PostListing'
-import ProjectListing from '../components/ProjectListing'
-import SimpleListing from '../components/SimpleListing'
-import SEO from '../components/SEO'
-import config from '../../data/SiteConfig'
-import projects from '../../data/projects'
-import speaking from '../../data/speaking'
-import podcasts from '../../data/podcasts'
-import quotes from '../../data/quotes'
-import tania from '../../content/images/taniawarm.jpg'
+import React, { Component } from "react";
+import Helmet from "react-helmet";
+import { graphql, Link } from "gatsby";
+import GitHubButton from "react-github-btn";
+import Layout from "../layout";
+import PostListing from "../components/PostListing";
+import ProjectListing from "../components/ProjectListing";
+import SimpleListing from "../components/SimpleListing";
+import SEO from "../components/SEO";
+import config from "../../data/SiteConfig";
+import projects from "../../data/projects";
+import speaking from "../../data/speaking";
+import podcasts from "../../data/podcasts";
+import quotes from "../../data/quotes";
+import tania from "../../content/images/taniawarm.jpg";
 
 export default class Index extends Component {
   render() {
-    const { data } = this.props
+    const { data } = this.props;
 
-    const latestPostEdges = data.latest.edges
-    const popularPostEdges = data.popular.edges
+    const latestPostEdges = data.latest.edges;
+    const popularPostEdges = data.popular.edges;
 
     return (
       <Layout>
@@ -28,10 +28,8 @@ export default class Index extends Component {
         <div className="container">
           <div className="lead">
             <div className="elevator">
-              <h1>I'm Tania</h1>
-              <p>
-                I write about modern JavaScript, Node.js, design and all things web development.
-              </p>
+              <h1>I'm Umeed</h1>
+              <p>I wrote about JS and web</p>
               {/* <div className="social-buttons">
                 <div>
                   <a
@@ -117,7 +115,7 @@ export default class Index extends Component {
           </section> */}
         </div>
       </Layout>
-    )
+    );
   }
 }
 
@@ -184,4 +182,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
