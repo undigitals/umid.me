@@ -1,6 +1,6 @@
-$background: #212C4F;
+$background: #212c4f;
 $foreground: #b3b9c5;
-$accent: #303030;
+$accent: rgba(0, 0, 0, 0.2);
 $dark-border: darken($background, 3%);
 
 .dark {
@@ -45,7 +45,8 @@ $dark-border: darken($background, 3%);
       a.view-all {
         background: rgba(0, 0, 0, 0.2);
         color: darken($foreground, 10%);
-        &:hover, &:focus {
+        &:hover,
+        &:focus {
           background: black;
           color: $foreground;
         }
@@ -147,7 +148,7 @@ $dark-border: darken($background, 3%);
 
       &:hover {
         background: $accent;
-        border-color: $accent;
+        // border-color: $accent;
       }
     }
 
@@ -211,7 +212,7 @@ $dark-border: darken($background, 3%);
       &:active,
       &:focus {
         border: none;
-        background: #111;
+        background: rgba(0, 0, 0, 0.4);
         color: white;
       }
     }
@@ -414,7 +415,7 @@ $dark-border: darken($background, 3%);
       }
 
       &:hover {
-        background: #111;
+        background: rgba(0, 0, 0, 0.4);
         color: darken($primary-color, 10%);
       }
     }

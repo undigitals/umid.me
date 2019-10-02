@@ -1,9 +1,9 @@
 {
-  "name": "taniarascia.com",
+  "name": "umid.me",
   "description": "Personal website running on Gatsby, React, and Node.js.",
   "version": "1.0.1",
-  "author": "Tania Rascia <tania@taniarascia.com>",
-  "repository": "git@github.com:taniarascia/taniarascia.com",
+  "author": "Umid Negmatullayev",
+  "repository": "https://github.com/undigitals/umid.me",
   "dependencies": {
     "eslint-utils": "^1.4.1",
     "gatsby": "^2.13.13",

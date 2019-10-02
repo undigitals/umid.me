@@ -1,31 +1,30 @@
 const config = {
-  siteTitle: "Tania Rascia",
-  siteTitleShort: "Tania Rascia",
-  siteTitleAlt: "Tania Rascia",
-  siteLogo: "/logos/tania.jpg",
+  siteTitle: "Umid.me | Personal Blog",
+  siteTitleShort: "Umid.me | Personal Blog",
+  siteTitleAlt: "Umid.me | Personal Blog",
+  siteLogo: "/logos/Asset-10.png",
   siteUrl: "https://www.taniarascia.com",
-  repo: "https://github.com/taniarascia/taniarascia.com",
+  repo: "https://github.com/undigitals/umid.me",
   pathPrefix: "",
   dateFromFormat: "YYYY-MM-DD",
   dateFormat: "MMMM Do, YYYY",
-  siteDescription:
-    "Tania Rascia is a web developer and writer specializing in modern JavaScript.",
+  siteDescription: "Umid Negmatullayev Seoul based web developer",
   siteRss: "/rss.xml",
   googleAnalyticsID: "UA-42068444-1",
   postDefaultCategoryID: "Tech",
-  commentsApi: "https://tania-comments-api.herokuapp.com/comments",
-  newsletter: "https://taniarascia.substack.com",
-  newsletterEmbed: "https://taniarascia.substack.com/embed",
-  userName: "Tania",
-  userEmail: "tania@taniarascia.com",
-  userTwitter: "taniarascia",
+  // commentsApi: "https://tania-comments-api.herokuapp.com/comments",
+  // newsletter: "https://taniarascia.substack.com",
+  // newsletterEmbed: "https://taniarascia.substack.com/embed",
+  userName: "Umeed",
+  userEmail: "undigitals@gmail.com",
+  // userTwitter: "taniarascia",
   menuLinks: [
     // {
     //   name: 'Me',
     //   link: '/me/',
     // },
     {
-      name: "Articles",
+      name: "Blogs",
       link: "/blog/"
     }
     // {

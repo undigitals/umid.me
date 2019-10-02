@@ -77,7 +77,7 @@ export default class Index extends Component {
             <PostListing simple postEdges={latestPostEdges} />
           </section>
 
-          <section className="section">
+          {/* <section className="section">
             <h2>
               Most Popular
               <Link to="/categories/popular" className="view-all">
@@ -85,7 +85,7 @@ export default class Index extends Component {
               </Link>
             </h2>
             <PostListing simple postEdges={popularPostEdges} />
-          </section>
+          </section> */}
 
           {/* <section className="section">
             <h2>Open Source Projects</h2>
