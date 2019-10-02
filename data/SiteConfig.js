@@ -1,36 +1,37 @@
 const config = {
-  siteTitle: "Umid.me",
-  siteTitleShort: "Umid.me",
-  siteTitleAlt: "Umid.me",
-  siteLogo: "/logos/Asset-10.png",
-  siteUrl: "https://www.Umid.me",
+  siteTitle: "Tania Rascia",
+  siteTitleShort: "Tania Rascia",
+  siteTitleAlt: "Tania Rascia",
+  siteLogo: "/logos/tania.jpg",
+  siteUrl: "https://www.taniarascia.com",
   repo: "https://github.com/taniarascia/taniarascia.com",
   pathPrefix: "",
   dateFromFormat: "YYYY-MM-DD",
   dateFormat: "MMMM Do, YYYY",
-  siteDescription: "This website is dedicated to web tech.",
-  // siteRss: "/rss.xml",
-  // googleAnalyticsID: "UA-42068444-1",
-  // postDefaultCategoryID: "Tech",
+  siteDescription:
+    "Tania Rascia is a web developer and writer specializing in modern JavaScript.",
+  siteRss: "/rss.xml",
+  googleAnalyticsID: "UA-42068444-1",
+  postDefaultCategoryID: "Tech",
   commentsApi: "https://tania-comments-api.herokuapp.com/comments",
   newsletter: "https://taniarascia.substack.com",
   newsletterEmbed: "https://taniarascia.substack.com/embed",
-  userName: "Umeed",
-  userEmail: "undigitals@gmail.com",
-  // userTwitter: "taniarascia",
+  userName: "Tania",
+  userEmail: "tania@taniarascia.com",
+  userTwitter: "taniarascia",
   menuLinks: [
     // {
-    //   name: "Me",
-    //   link: "/me/"
+    //   name: 'Me',
+    //   link: '/me/',
     // },
     {
-      name: "Blogs",
+      name: "Articles",
       link: "/blog/"
     }
     // {
-    //   name: "Contact",
-    //   link: "/contact/"
-    // }
+    //   name: 'Contact',
+    //   link: '/contact/',
+    // },
   ],
   themeColor: "#3F80FF", // Used for setting manifest and progress theme colors.
   backgroundColor: "#ffffff"
