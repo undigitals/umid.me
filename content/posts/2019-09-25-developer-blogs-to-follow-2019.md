@@ -69,6 +69,8 @@ I've recently discovered Ahmad, and he has an some extremely impressive credenti
 
 - [valentinog.com](https://www.valentinog.com/blog/)
 
+smoking
+
 Another great site for tutorials. I've landed on Valentino's site plenty of times. His articles are very in-depth and informative, and he cares about responding to users and helping them out as well.
 
 I'm sure I've forgotten a ton, but I wanted to get a little list out of the ones that came to my head.
