@@ -7,7 +7,7 @@ import UserInfo from "../components/UserInfo";
 import Tags from "../components/PostTags";
 import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
-// import { formatDate, editOnGithub } from "../utils/global";
+import { formatDate, editOnGithub } from "../utils/global";
 // import Comments from "../components/Comments";
 import NewsletterForm from "../components/NewsletterForm";
 
@@ -57,8 +57,8 @@ export default class PostTemplate extends Component {
       thumbnail = post.thumbnail.childImageSharp.fixed;
     }
 
-    // const date = formatDate(post.date);
-    // const githubLink = editOnGithub(post);
+    const date = formatDate(post.date);
+    const githubLink = editOnGithub(post);
     // const twitterShare = `http://twitter.com/share?text=${encodeURIComponent(
     //   post.title
     // )}&url=${config.siteUrl}/${post.slug}/&via=taniarascia`;
@@ -86,20 +86,20 @@ export default class PostTemplate extends Component {
             {thumbnail && <Img fixed={post.thumbnail.childImageSharp.fixed} />}
             <div className="flex">
               <h1>{post.title}</h1>
-              {/* <div className="post-meta">
-                <time className="date">{date}</time>/
-                <a className="twitter-link" href={twitterShare}>
+              <div className="post-meta">
+                <time className="date">{date}</time>
+                {/* <a className="twitter-link" href={twitterShare}>
                   Share
-                </a>
+                </a> */}
                 /
-                {!error && (
+                {/* {!error && (
                   <span>
                     <a className="comment-link" href="#comments">
                       {commentTitle(comments.length)}
                     </a>
                     /
                   </span>
-                )}
+                )} */}
                 <a
                   className="github-link"
                   href={githubLink}
@@ -108,7 +108,7 @@ export default class PostTemplate extends Component {
                 >
                   Edit ✏️
                 </a>
-              </div> */}
+              </div>
               <Tags tags={post.tags} />
             </div>
           </header>

@@ -3,7 +3,7 @@ const config = {
   siteTitleShort: "Umid.me | Personal Blog",
   siteTitleAlt: "Umid.me | Personal Blog",
   siteLogo: "/logos/Asset-10.png",
-  siteUrl: "https://www.taniarascia.com",
+  siteUrl: "https://www.umid.me",
   repo: "https://github.com/undigitals/umid.me",
   pathPrefix: "",
   dateFromFormat: "YYYY-MM-DD",
