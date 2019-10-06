@@ -39,3 +39,8 @@ If you see any typos or formatting errors in a post, or any other issue that nee
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## For Math 
+
+This is for math equation inside `markdown` https://math.now.sh/
+
