@@ -1,3 +1,4 @@
+
 ---
 date: 2015-09-24
 title: 'Getting Started with Git'
@@ -11,6 +12,9 @@ tags:
   - setup
   - version control
 ---
+
+
+  
 
 Git is a difficult subject to tackle for self-taught web developers who didn't learn to code with a team. If you've always worked alone and want an explanation of how to get started with Git, this tutorial is for you.
 
@@ -306,7 +310,7 @@ Pull (download) from origin master (branch).
 git pull origin master
 ```
 
-$$ax^2+bx+c=0$$
+![Equation 1](https://math.now.sh?from=\frac{1}{\Gamma(s)}\int_{0}^{\infty}\frac{u^{s-1}}{e^{u}-1}\mathrm{d}u)
 
 
 Now, when you go to http://domain.com/project-remote, all the files are there, and the site is live!
