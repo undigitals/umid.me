@@ -306,6 +306,9 @@ Pull (download) from origin master (branch).
 git pull origin master
 ```
 
+$$ax^2+bx+c=0$$
+
+
 Now, when you go to http://domain.com/project-remote, all the files are there, and the site is live!
 
 I wanted to write the article I wish I had in front of me when I tried to teach myself everything at once (Git, command line, and SSH) and ran into pitfalls.
