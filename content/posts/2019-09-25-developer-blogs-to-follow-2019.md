@@ -1,8 +1,8 @@
 ---
 date: 2019-09-25
-title: 'Developer Blogs to Follow (2019)'
+title: "Developer Blogs to Follow (2019)"
 template: post
-thumbnail: '../thumbnails/writing.png'
+thumbnail: "../thumbnails/writing.png"
 slug: developer-blogs-to-follow-2019
 categories:
   - Personal
