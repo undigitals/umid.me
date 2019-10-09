@@ -31,10 +31,28 @@ export default class MainLayout extends Component {
           <meta name="description" content={config.siteDescription} />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
-          <meta
-            name="apple-mobile-web-app-status-bar-style"
-            content="default"
+          <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="/logos/logo1.png"
           />
+          <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="/logos/logo1.png"
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/logos/logo1.png"
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="/logos/logo1.png"
+          />
+          <link rel="apple-touch-startup-image" href="/logos/logo1.png" />
+
           <link
             rel="shortcut icon"
             type="image/png"
