@@ -103,8 +103,13 @@ module.exports = {
         // display: "minimal-ui",
         icons: [
           {
-            src: "/logos/Asset-10.png",
+            src: "/logos/logo1.png",
             sizes: "48x48",
+            type: "image/png"
+          },
+          {
+            src: "/logos/logo1.png",
+            sizes: "512x512",
             type: "image/png"
           },
           {

@@ -33,7 +33,7 @@ export default class MainLayout extends Component {
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta
             name="apple-mobile-web-app-status-bar-style"
-            content="black-translucent"
+            content="default"
           />
           <link
             rel="shortcut icon"
