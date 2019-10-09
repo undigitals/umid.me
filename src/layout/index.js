@@ -29,6 +29,11 @@ export default class MainLayout extends Component {
           }}
         >
           <meta name="description" content={config.siteDescription} />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+          />
           <link
             rel="shortcut icon"
             type="image/png"
@@ -38,6 +43,7 @@ export default class MainLayout extends Component {
           <html lang="en" />
         </Helmet>
         <Navigation menuLinks={config.menuLinks} />
+
         <main id="main-content">{children}</main>
         {/* <Footer /> */}
       </>
