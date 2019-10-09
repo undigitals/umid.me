@@ -20,7 +20,7 @@ module.exports = {
     "gatsby-plugin-sass",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-twitter",
-    // "gatsby-plugin-offline",
+    "gatsby-plugin-offline",
     {
       resolve: `gatsby-plugin-netlify`,
       options: {

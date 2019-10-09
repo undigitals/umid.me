@@ -35,7 +35,7 @@ export default class MainLayout extends Component {
             href={favicon}
             width="30px"
           />
-          {/* <html lang="en" /> */}
+          <html lang="en" />
         </Helmet>
         <Navigation menuLinks={config.menuLinks} />
         <main id="main-content">{children}</main>
