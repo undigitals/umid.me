@@ -114,7 +114,13 @@ module.exports = {
         ]
       }
     },
-    "gatsby-plugin-offline",
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/blog/`, `/*`]
+      }
+    },
+
     {
       resolve: "gatsby-plugin-feed",
       options: {
