@@ -99,7 +99,8 @@ module.exports = {
         start_url: config.pathPrefix,
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
-        display: "minimal-ui",
+        display: "standalone",
+        // display: "minimal-ui",
         icons: [
           {
             src: "/logos/Asset-10.png",
@@ -115,9 +116,9 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-offline`,
+      resolve: "gatsby-plugin-offline",
       options: {
-        precachePages: [`/blog/`, `/*`]
+        precachePages: ["/blog/", "/*"]
       }
     },
 
