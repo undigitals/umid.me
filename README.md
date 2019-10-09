@@ -1,10 +1,10 @@
 # umid.me | personal website
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Netlify Status](https://api.netlify.com/api/v1/badges/0a51d0e9-f611-4dd8-887f-fc1889e68540/deploy-status)](https://app.netlify.com/teams/undigitals/sites) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Netlify Status](https://api.netlify.com/api/v1/badges/0a51d0e9-f611-4dd8-887f-fc1889e68540/deploy-status)](https://app.netlify.com/teams/undigitals/sites)
 
-Umid Negmatullayev | personal blogs. 
+Umid Negmatullayev | personal blogs.
 
-## Tech 
+## Tech
 
 Gatsby, React, MDX
 
@@ -40,8 +40,7 @@ If you see any typos or formatting errors in a post, or any other issue that nee
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## For Math 
+## For Math
 
 This is for math equation inside `markdown` https://math.now.sh/
-![Equation 1](https://math.now.sh?from=\frac{1}{\Gamma(s)}\int_{0}^{\infty}\frac{u^{s-1}}{e^{u}-1}\mathrm{d}u)
-
+![Equation 1](<https://math.now.sh?from=\frac{1}{\Gamma(s)}\int_{0}^{\infty}\frac{u^{s-1}}{e^{u}-1}\mathrm{d}u>)
