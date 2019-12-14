@@ -19,8 +19,8 @@ tags:
 [Prisma](<https://www.prisma.io/docs/understand-prisma/prisma-introduction-what-why-how-j9ff/>) gives simple explanation to this question.
 > Prisma replaces traditional ORMs and simplifies database workflows.
 
-ORM is (Object-rational mapping) programming technique which helps to query data from a database or store to a database. `SQL` or `Mongoose` are the popular ORMs for sql and non-sql databases.
-What Prisma offering is you don't have be to depend on a typical ORM to access your data on a database server like for `MongoDB` `Mongoose` or for `MySQL` `SQL` ORMs but you can use Prisma for `MongoDB`, `MySQL`, `Postgresql`.
+ORM is (Object-rational mapping) programming technique which helps to query or store data to a database. `SQL` or `Mongoose` are the popular ORMs for sql and non-sql databases.
+What Prisma offeres is you don't have be to depend on a typical ORM to access your data on a database server like for `MongoDB` `Mongoose` or for `MySQL` `SQL` ORMs but you can use Prisma for `MongoDB`, `MySQL`, `Postgresql`.
 
 ![](../images/prisma.png)
 
